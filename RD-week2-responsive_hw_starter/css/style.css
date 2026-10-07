@@ -142,3 +142,22 @@ header {
 .child:hover .label {
     display: block;
 } */
+
+@media screen and (min-width: 772px) {
+    .column {
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    img {
+        max-height: 30vh;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 998px) {
+    .column {
+        width: 30%;
+    }
+}
